@@ -1,0 +1,31 @@
+name: flutter_redux
+description: A set of utility Widgets that Provide and Connect to a Redux Store
+version: 0.5.3
+author: Brian Egan <brian@brianegan.com>
+homepage: https://github.com/brianegan/flutter_redux
+
+environment:
+  sdk: ">=2.0.0-dev.28.0 <3.0.0"
+
+dependencies:
+  meta: ">=1.1.1 <2.0.0"
+  redux: ">=3.0.0 <4.0.0"
+  flutter_web: any
+  flutter_web_ui: any
+
+dev_dependencies:
+  mockito: ^4.0.0
+
+dependency_overrides:
+  flutter_web:
+    git:
+      url: https://github.com/flutter/flutter_web
+      path: packages/flutter_web
+  flutter_web_ui:
+    git:
+      url: https://github.com/flutter/flutter_web
+      path: packages/flutter_web_ui
+  flutter_web_test:
+    git:
+      url: https://github.com/flutter/flutter_web
+      path: packages/flutter_web_test
